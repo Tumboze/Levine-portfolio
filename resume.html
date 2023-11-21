@@ -4,6 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Resume</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <!-- =====BOX ICONS===== -->
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
   <style>
     body {
       font-family: 'Arial', sans-serif;
@@ -26,6 +30,7 @@
       padding: 2rem;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       border-radius: 8px;
+      margin-top: 150px;
     }
 
     h2 {
@@ -63,8 +68,24 @@
   </style>
 </head>
 <body>
-  <header>
-    <h1>My Resume</h1>
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div>
+        <a href="#home" class="nav__logo">Levine Otieno Mirewe</a>
+      </div>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link active"><b>Home</b></a></li>
+          <li class="nav__item"><a href="autobiography.html" class="nav__link">Autobiography</a></li>
+          <li class="nav__item"><a href="powerpoint.html" class="nav__link">Personal essay</a></li>
+        </ul>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class='bx bx-menu'></i>
+      </div>
+    </nav>
   </header>
 
   <section>
